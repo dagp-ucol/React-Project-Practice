@@ -24,7 +24,8 @@ class App extends Component {
       <div className="App">
       <input 
         type='search' 
-        placeholder='Search user 🔎' 
+        id = "myInput"
+        placeholder='Search user 🔎'
         onChange={e => {this.setState({ searchField: e.target.value}, () => console.log(this.state))
         }}
         />

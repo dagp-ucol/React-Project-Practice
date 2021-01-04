@@ -28,6 +28,14 @@
   color: #61dafb;
 }
 
+#myInput {
+  border: 1px;
+  width: 200px;
+  padding: 20px;
+      font-size: 20px;
+      margin-bottom: 10px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
